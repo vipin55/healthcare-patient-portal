@@ -1,0 +1,84 @@
+/* Main container */
+.dashboard-container {
+    display: flex;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Sidebar styling */
+  .sidebar {
+    width: 200px;
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+  }
+  
+  .sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin: 10px 0;
+  }
+  
+  /* Main content styling */
+  .main-content {
+    padding: 20px;
+    flex-grow: 1;
+  }
+  
+  .main-content h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  /* Section styling */
+  .appointments-section, .recent-patients-section {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* Table styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f1f1f1;
+  }
+  
+  .view-profile-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .view-profile-btn:hover {
+    background-color: #218838;
+  }
+  

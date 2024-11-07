@@ -1,0 +1,78 @@
+/* Center the container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+  }
+  
+  /* Style the card */
+  .login-card {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+  }
+  
+  /* Style the logo */
+  .logo {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+  }
+  
+  /* Title */
+  h2 {
+    color: #007bff;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the inputs */
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Login button */
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #8bc34a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .login-button:hover {
+    background-color: #7cb342;
+  }
+  
+  /* Link styling */
+  .links {
+    margin-top: 15px;
+  }
+  
+  .forgot-password,
+  .register-link {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .forgot-password:hover,
+  .register-link:hover {
+    text-decoration: underline;
+  }
+  
